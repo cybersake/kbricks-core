@@ -412,7 +412,7 @@ module figure_hand() {
     r2 = axle_diameter/2 + axle_tolerance/2;
     difference() {
         union() {
-            rotate([180, 0, 0])
+            rotate([180, 0, 90])
             peg_half();
             translate([0, 0, cube_size/4])
             rotate([90, 0, 0])
